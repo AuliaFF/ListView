@@ -20,6 +20,7 @@ class _UserListState extends State<UserList> {
     UserData("Aulia", 22, "aulia.fadhilla@gmail.com"),
     UserData("Dean", 24, "dean@gmail.com"),
     UserData("Yuki", 18, "yuki@gmail.com"),
+    UserData("Rami", 20, "rami@gmail.com"),
   ];
 
 String btnSimpanText = "Simpan";
