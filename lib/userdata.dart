@@ -4,4 +4,8 @@ class UserData {
   String email;
 
   UserData(this.nama, this.umur, this.email);
+
+    String getNamaWithoutIndex() {
+    return nama.substring(nama.indexOf('.') + 2);
+    }
 }
